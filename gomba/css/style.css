@@ -15,3 +15,37 @@ header h1 {
 
 .nav-custom {
     background-color: #4a2c11 !important;
+}
+
+h2 {
+    color: #2d5a27;
+    border-left: 4px solid #2d5a27;
+    font-variant: small-caps;
+    padding: 8px 12px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.protected-list {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.protected-list li {
+    float: left;
+    margin-left: 30px;
+    list-style: none;
+}
+
+table tr:first-child {
+    text-transform: uppercase;
+}
